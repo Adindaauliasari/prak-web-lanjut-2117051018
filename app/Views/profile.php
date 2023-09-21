@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    
     <style>
         body {
-            background-color: #f7f7f7; /* Warna latar belakang */
+            background-color: 	#FFB6C1; 
             font-family: Arial, sans-serif;
         }
-
+    
         .profile-card {
-            max-width: 400px;
+            max-width: 200px;
             margin: 0 auto;
-            margin-top: 50px;
-            background-color: #fff; /* Warna latar belakang kartu profil */
+            margin-top: 100px;
+            background-color: #FFFACD; /* Warna latar belakang kartu profil */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan kartu profil */
-            border-radius: 10px; /* Sudut bulat kartu profil */
-            padding: 20px;
+            border-radius: 500px; /* Sudut bulat kartu profil */
+            padding: 30px;
             text-align: center;
         }
 
@@ -36,7 +37,7 @@
             background-image: url(/profile/IMG/poto.jpg);
             width: 150px;
             height: 150px;
-            background-color: #ddd; /* Warna latar belakang foto profil */
+            background-color: #00FFFF; /* Warna latar belakang foto profil */
             border-radius: 50%; /* Untuk membuatnya menjadi lingkaran */
             margin: 0 auto;
             margin-bottom: 20px;
@@ -48,7 +49,8 @@
         .profile-info {
             font-size: 18px;
             color: #333; /* Warna teks informasi */
-            margin-bottom: 10px;
+            margin-bottom: 30px;
+            background-color:#BDB76B;
         }
 
         .profile-info span {
@@ -58,6 +60,7 @@
     </style>
 </head>
 <body>
+  
     <div class="profile-card">
         <div class="img">
             <i class="fas fa-user"></i> <!-- Gunakan ikon profil Font Awesome di sini -->

@@ -219,7 +219,6 @@
     </div>
 
     <div class="heroe">
-
         <h1>Adinda Aulia Sari 2117051018 <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
         <h2>The small framework with powerful features</h2>
